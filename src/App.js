@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -9,15 +9,15 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload. Sure.
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="/storybook"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            See Storybook!
           </a>
         </header>
       </div>
