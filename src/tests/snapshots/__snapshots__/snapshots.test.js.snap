@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Button default 1`] = `
-<button>
+exports[`Storyshots Atoms / Button default 1`] = `
+<button
+  className="sc-bdVaJa kdVMwK"
+>
   Submit Buttons
 </button>
 `;
 
-exports[`Storyshots Button with emoji 1`] = `
-<button>
+exports[`Storyshots Atoms / Button with emoji 1`] = `
+<button
+  className="sc-bdVaJa kdVMwK"
+>
   <span
     aria-label="so cool"
     role="img"
@@ -15,4 +19,27 @@ exports[`Storyshots Button with emoji 1`] = `
     😀 😎 👍 💯
   </span>
 </button>
+`;
+
+exports[`Storyshots Molecule / Header default 1`] = `
+<div
+  className="sc-bwzfXH biVqdI"
+>
+  <h2
+    style={
+      Object {
+        "fontFamily": "Avenir",
+        "margin": "auto",
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    Our new demo website
+  </h2>
+  <button
+    className="sc-bdVaJa kdVMwK"
+  >
+    Logout
+  </button>
+</div>
 `;
