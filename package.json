@@ -10,11 +10,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "storybook": "start-storybook -p 9000 -c .storybook",
+    "storybook": "start-storybook -p 6006 -c .storybook",
     "build": "react-scripts build",
     "build:storybook": "build-storybook -c ./src/lib -o ./build",
     "test:unit": "react-scripts test",
-    "test:snapshots": "jest .src/tests",
+    "test:snapshots": "jest .src/tests/snapshots",
+    "test:image:snapshots": "jest .src/tests/visual_regression",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,7 +40,6 @@
     "@storybook/react": "^5.1.9",
     "babel-jest": "^24.8.0",
     "babel-plugin-require-context-hook": "^1.0.0",
-    "jest": "^24.8.0",
     "react-test-renderer": "16.8.6",
     "react-testing-library": "^6.1.2"
   }
