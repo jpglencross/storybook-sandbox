@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
+    "react": "16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1"
   },
@@ -13,7 +13,8 @@
     "storybook": "start-storybook -p 9000 -c .storybook",
     "build": "react-scripts build",
     "build:storybook": "build-storybook -c ./src/lib -o ./build",
-    "test": "react-scripts test",
+    "test:unit": "react-scripts test",
+    "test:snapshots": "jest .src/tests",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -26,11 +27,20 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-a11y": "^5.1.11",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-backgrounds": "^5.1.9",
     "@storybook/addon-knobs": "^5.1.9",
     "@storybook/addon-notes": "^5.1.9",
+    "@storybook/addon-storyshots": "^5.1.11",
+    "@storybook/addon-storyshots-puppeteer": "^5.1.11",
     "@storybook/react": "^5.1.9",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "16.8.6",
     "react-testing-library": "^6.1.2"
   }
 }

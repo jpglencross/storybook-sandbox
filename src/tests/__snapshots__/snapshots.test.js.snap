@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button default 1`] = `
+<button>
+  Submit Buttons
+</button>
+`;
+
+exports[`Storyshots Button with emoji 1`] = `
+<button>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
