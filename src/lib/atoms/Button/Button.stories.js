@@ -3,7 +3,7 @@ import { text } from "@storybook/addon-knobs";
 import { storiesOf } from "@storybook/react";
 import Button from "./Button";
 
-storiesOf("Button", module)
+storiesOf("Atoms / Button", module)
   .add("default", () => <Button>{text("Text", "Submit Buttons")}</Button>)
   .add("with emoji", () => (
     <Button>
