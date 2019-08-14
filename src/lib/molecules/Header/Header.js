@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Button } from "../atoms";
+import { Button } from "../../atoms";
 
 const StyledHeader = styled(`div`)`
   background: #14233d;
