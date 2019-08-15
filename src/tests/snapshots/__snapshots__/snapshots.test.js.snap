@@ -2,7 +2,7 @@
 
 exports[`Storyshots Atoms / Button default 1`] = `
 <button
-  className="sc-bdVaJa kdVMwK"
+  className="sc-bdVaJa fsvAxK"
 >
   Submit Buttons
 </button>
@@ -10,7 +10,7 @@ exports[`Storyshots Atoms / Button default 1`] = `
 
 exports[`Storyshots Atoms / Button with emoji 1`] = `
 <button
-  className="sc-bdVaJa kdVMwK"
+  className="sc-bdVaJa fsvAxK"
 >
   <span
     aria-label="so cool"
@@ -34,10 +34,50 @@ exports[`Storyshots Molecule / Header default 1`] = `
       }
     }
   >
-    Our new demo website
+    Demo website
   </h2>
   <button
-    className="sc-bdVaJa kdVMwK"
+    className="sc-bdVaJa fsvAxK"
+  >
+    Logout
+  </button>
+</div>
+`;
+
+exports[`Storyshots Molecule / Header with Icon 1`] = `
+<div
+  className="sc-bwzfXH biVqdI"
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+      }
+    }
+  >
+    <img
+      alt="anchor logo"
+      src="https://cdn2.iconfinder.com/data/icons/anchor-8/288/anchor-02-512.png"
+      style={
+        Object {
+          "height": "40px",
+        }
+      }
+    />
+    <h2
+      style={
+        Object {
+          "fontFamily": "Avenir",
+          "margin": "auto",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Endeavour
+    </h2>
+  </div>
+  <button
+    className="sc-bdVaJa fsvAxK"
   >
     Logout
   </button>
