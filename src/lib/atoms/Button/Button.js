@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const BlueButton = styled(`button`)`
-  background: lightblue;
+  background: #77c5be;
   font-weight: 600;
   line-height: 30px;
   color: white;
