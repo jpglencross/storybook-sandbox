@@ -6,7 +6,7 @@
     "prop-types": "^15.7.2",
     "react": "16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "styled-components": "^4.3.2"
   },
   "scripts": {
@@ -38,7 +38,7 @@
     "@storybook/addon-notes": "^5.1.9",
     "@storybook/addon-storyshots": "^5.1.11",
     "@storybook/addon-storyshots-puppeteer": "^5.1.11",
-    "@storybook/react": "^5.1.9",
+    "@storybook/react": "^9.1.1",
     "babel-jest": "^24.8.0",
     "babel-plugin-require-context-hook": "^1.0.0",
     "react-test-renderer": "16.8.6",
